@@ -14,9 +14,10 @@ rooms = [
     { room_type: "Twin", vacant_rooms: 8, price: 60 }
   ];
 And produces the following output:
-<ol><li>Queen, 5, $100</li><li>Double, 3, $75</li><li>Twin, 8, $60</li></ol>
+```<ol><li>Queen, 5, $100</li><li>Double, 3, $75</li><li>Twin, 8, $60</li></ol>```
 
-Answer ->
+
+**Answer ->**
 ```
 //index.js
 import React from 'react';
@@ -48,7 +49,8 @@ c) it prints "foobar" if NUMBER is divisible by 14;
 d) it prints NUMBER value for other cases;
 note: NUMBER is a positive integer number;
 
-Answer->
+
+**Answer->**
 ```
 //index.js
 function index(NUMBER) {
@@ -69,7 +71,8 @@ Let's say you have a file with a following structure:
 
 Write a function in node.js that reads this file and returns the number, which is a sum of all "value" numbers from the file;
 
-Answer->
+
+**Answer->**
 ```
 //index.js
 import fs from 'fs';
@@ -118,7 +121,8 @@ if (province == 'ONTARIO') {
    calc = 2 * basis(amt) + extra(amt) * 1.05;
 }
 
-Answer->
+
+**Answer->**
 ```
 if (province == 'ONTARIO') {
     amt = base * ONTARIO_RATE;
@@ -145,7 +149,8 @@ https://www.metaweather.com/api/ *
 Your app should allow the user to search for a city and see that day's forecast.
 Styling is not important, you can use default browser styles.
 
-Answer->
+
+**Answer->**
 ```
 This is the public Repo for question 5
 
